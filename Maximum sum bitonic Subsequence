@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+#include<bits/stdc++.h>
+
+/*similar to length of longest bitonic subsequence.*/
+
+int main()
+{
+    int n;
+    cin>>n;
+    vector<int> a(n);
+    for(int i=0;i<n;i++)
+    cin>>a[i];
+    
+    vector<int> lis(n);
+    vector<int> lds(n);
+    
+    for(int i=0;i<n;i++)
+    {
+        lis[i]=a[i];
+        lds[i]=a[i];
+    }
+    
+    for(int i=1;i<n;i++)
+    {
+        for(int j=0;j<i;j++)
+        {
+            if(a[j]<a[i] && lis[j]+a[i]>lis[i])
+            lis[i]=lis[j]+a[i];
+        }
+    }
+    
+    for(int i=n-2;i>=0;i--)
+    {
+        for(int j=n-1;j>i;j--)
+        {
+            if(a[j]<a[i] && lds[j]+a[i]>lds[i])
+            lds[i]=lds[j]+a[i];
+        }
+    }
+    int ans = lis[0]+lds[0]-a[0];
+    
+    for(int i=1;i<n;i++)
+    ans=max(ans,lis[i]+lds[i]-a[i]);
+    
+    cout<<ans<<endl;
+}

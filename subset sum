@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+
+
+int main()
+{
+    int n;
+    cin>>n;
+    vector<int> a(n);
+    for(int i=0;i<n;i++)
+    cin>>a[i];
+    
+    int sum;
+    cin>>sum;
+    int dp[sum+1];
+    
+    dp[0]=1;
+    for(int i=1;i<=sum;i++)
+    dp[i]=0;
+/*the outer loop will traverse all the elements in the vector and the innner loop traverse the sum in 
+the reverse order.The reverse order is very important here since we are not allowed to take a element 
+more than once and this reverse traversal assures that we dont take an element more than once.*/
+ 
+ for(int i=0;i<n;i++)
+ {
+     for(int j=sum;j>0;j--)
+     {
+         if(j-a[i]>=0)
+         dp[j]+=dp[j-a[i]];
+     }
+ }
+ cout<<dp[sum]<<endl;
+}

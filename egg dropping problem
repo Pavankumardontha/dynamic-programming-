@@ -1,0 +1,49 @@
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+/* we are given some eggs and floors,we need to find the minimum no. of attempts needed to 
+find the critical floor in the worst case.
+we can drop the egg from any off the f given floors.The egg can either break or it wont. This is 
+not in our hands. The only thing which is in our hands is that ,we can through the egg from 
+any of the f given floors. So we will assume the worst in the situations were we dont have 
+control and find the best among the situations which we have control on. So we will go to 
+each floor,through the egg and find the maximum no of attempts since we have to condiser the 
+worst case here. We will do this for every floor and then we will find the minimum of all these
+attempts.*/
+
+int dp[50][50];
+int solve(int e,int f)
+{
+    //e eggs and f floors
+/* if we have only one egg ,then in the worst case we have to through eggs from all the floors
+starting from the bottom.*/
+    if(f==0 || f==1)
+    return f;
+    else if(e==1)
+    return f;
+    else if(dp[e][f]!=-1)
+    return dp[e][f];
+    else
+    {
+        /* so we will go to each floor and find the max. After finding the maximum for 
+        each floor, we take the minimum of all these.*/
+        int ans = INT_MAX;
+        for(int k=1;k<=f;k++)
+        {
+            int temp = max(solve(e-1,k-1),solve(e,f-k))+1;
+            ans=min(ans,temp);
+        }
+        return dp[e][f]=ans;
+    }
+}
+
+int main()
+{
+    int e;
+    int f;
+    cin>>e>>f;
+    memset(dp,-1,sizeof(dp));
+    int ans = solve(e,f);
+    cout<<ans<<endl;
+}

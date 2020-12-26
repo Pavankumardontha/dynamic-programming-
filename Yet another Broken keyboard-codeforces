@@ -1,0 +1,75 @@
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+    /* you have a given string s. In the keyboard there are some keys which are broken and 
+    so we cant type those characters. We are given the input of characters which are valid(
+    characters which can be typed).We have to tell the no of substrings of s that we can 
+    type using this broken keyboard which has only few valid characters.*/
+    
+    /*initially,we will form a a[26]={0} and put a[i]=1 if s[i]-'a' is a valid character.
+    we will now form the dp[] array.
+    */
+    
+    /* dp[i]= represents the no of substring ending at character s[i] and not including any 
+    of the characters in the substring that cannot be typed by our keyyboard.*/
+    
+    /* lets say we have a string as 
+    s = abacaba and we can only type a,b by our keyboard then in that case
+    dp[0]=1(only "a")
+    dp[1]=2(a,ab)
+    dp[2]=(a,aba,ba)
+    dp[3]=0 since s[3] character cannot be typed by our keyboard.
+    dp[4]=1(a)
+    dp[5]=2(ab,b)
+    dp[6]=3(aba,ba,a)
+    
+    so 
+    we can clearly if that 
+    
+    dp[i]=0 if s[i] is not present in the keyboard and 
+    dp[i]=dp[i-1]+1 if s[i] is present in the keyboard characters.
+    
+    we will now take sum of all the dp[i]s since these are the count of substrings which 
+    can be typed by our broken keyboard and hence the answer.*/
+    int n;
+    int k;
+    char c;
+    cin>>n>>k;
+    string s;
+    cin>>s;
+    int a[26];
+    for(int i=0;i<26;i++)
+    a[i]=0;
+    
+    for(int i=0;i<k;i++)
+    {
+        cin>>c;
+        a[c - 'a']++;
+    }
+    
+    long long int f[n];
+    if(a[s[0]-'a']==0)
+    f[0]=0;
+    else
+    f[0]=1;
+    
+    long long int  sum = 0;
+    sum= sum + f[0];
+    for(int i=1;i<n;i++)
+    {
+        if(a[s[i]-'a']==0)
+        f[i]=0;
+        else
+        {
+            f[i]=f[i-1]+1;
+            sum = sum + f[i];
+        }
+    }
+    //for(int i=0;i<n;i++)
+    //cout<<f[i]<<" ";
+    cout<<sum<<endl;
+    
+}

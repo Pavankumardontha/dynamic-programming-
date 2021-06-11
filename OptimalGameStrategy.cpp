@@ -2,25 +2,17 @@ long long int dp[1005][1005];
 vector<int> a;
 long long solve(int i,int j)
 {
+    if(i>j)
+    return 0;
     if(dp[i][j]!=-1)
     return dp[i][j];
-    else 
+    else
     {
-        if(j-i==1)
-        {
-/* we have a set of 2 values. In this case we will return the maximum of both 
-elements.*/
-            dp[i][j] = max(a[i],a[j]);
-        }
-        else
-        {
-            long long int opt1 = a[i] + min(solve(i+2,j),solve(i+1,j-1));
-            long long int opt2 = a[j] + min(solve(i+1,j-1),solve(i,j-2));
-            dp[i][j] = max(opt1,opt2);
-            return dp[i][j];
-        }
+        long long int opt1 = a[i] + min(solve(i+2,j),solve(i+1,j-1));
+        long long int opt2 = a[j] + min(solve(i+1,j-1),solve(i,j-2));
+        dp[i][j] = max(opt1,opt2);
+        return dp[i][j];
     }
-    
 }
 long long maximumAmount(int arr[], int n) 
 {

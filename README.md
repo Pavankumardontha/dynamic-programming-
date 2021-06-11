@@ -11,6 +11,8 @@
 9) Optimal game strategy 
 10) Pots of gold game 
 11) Maximum Tip Calculator 
-12) 
+12) 0-1 Knapsack 
+13) Rodcutting Problem 
+14) Rectangle Cutting 
 
 Jump game all variations + buy and sell all variations 

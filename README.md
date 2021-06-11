@@ -10,6 +10,7 @@
 8) Flower eating marmot 
 9) Optimal game strategy 
 10) Pots of gold game 
-11) 
+11) Maximum Tip Calculator 
+12) 
 
 Jump game all variations + buy and sell all variations 

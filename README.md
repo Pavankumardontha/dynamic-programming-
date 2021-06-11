@@ -8,4 +8,8 @@
 6) Yet another broken keyboard-codeforces
 7) Caesar's Legions codeforces
 8) Flower eating marmot 
+9) Optimal game strategy 
+10) Pots of gold game 
+11) 
+
 Jump game all variations + buy and sell all variations 

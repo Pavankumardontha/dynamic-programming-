@@ -12,7 +12,8 @@
 10) Pots of gold game 
 11) Maximum Tip Calculator 
 12) 0-1 Knapsack 
-13) Rodcutting Problem 
-14) Rectangle Cutting 
+13) Consecutive 1's not allowed 
+14) Rodcutting Problem 
+15) Rectangle Cutting 
 
 Jump game all variations + buy and sell all variations 

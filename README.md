@@ -12,11 +12,15 @@
 10) Pots of gold game 
 11) Maximum Tip Calculator 
 12) 0-1 Knapsack 
-13) Maximize the Cut Segments 
-14) Consecutive 1's not allowed 
-15) Count possible ways to construct Buildings
-16) Count ways to reach Nth stair
-17) Rodcutting Problem 
-18) Rectangle Cutting 
+13) Count Ways to reach Nth stair
+14) Minimum No. of coins to make a change.
+15) Maximize the cut segments
+16) Dice Combinations(CSES)
+17) Rod cutting Problem(maximum profit problem)
+18) Consecutive 1's not allowed 
+19) Count possible ways to construct Buildings
+20)
+21)  
+22) 
 
 Jump game all variations + buy and sell all variations 

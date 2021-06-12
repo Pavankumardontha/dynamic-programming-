@@ -13,7 +13,8 @@
 11) Maximum Tip Calculator 
 12) 0-1 Knapsack 
 13) Consecutive 1's not allowed 
-14) Rodcutting Problem 
-15) Rectangle Cutting 
+14) Count possible ways to construct Buiildings
+15) Rodcutting Problem 
+16) Rectangle Cutting 
 
 Jump game all variations + buy and sell all variations 

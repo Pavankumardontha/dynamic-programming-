@@ -12,15 +12,17 @@
 10) Pots of gold game 
 11) Maximum Tip Calculator 
 12) 0-1 Knapsack 
-13) Count Ways to reach Nth stair
-14) Minimum No. of coins to make a change.
-15) Maximize the cut segments
-16) Dice Combinations(CSES)
-17) Rod cutting Problem(maximum profit problem)
-18) Consecutive 1's not allowed 
-19) Count possible ways to construct Buildings
-20)
-21)  
-22) 
+13) Coin Combinations - 1 (compare with coin combination-2 model. In this model permutations are also taken into account and it is 1D.Same like Nth stair)
+14) Coins Combinations - 2 (very very important to find the correlation. In this model only combinations are taken into account and this is 2D)
+15) Count Ways to reach Nth stair
+16) Minimum No. of coins to make a change.
+17) Maximize the cut segments
+18) Dice Combinations(CSES)
+19) Rod cutting Problem(maximum profit problem)
+20) Consecutive 1's not allowed 
+21) Count possible ways to construct Buildings
+22)
+23)  
+24) 
 
 Jump game all variations + buy and sell all variations 

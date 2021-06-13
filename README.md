@@ -14,15 +14,16 @@
 12) 0-1 Knapsack 
 13) Coin Combinations - 1 (Permutations taken into account. 1D problem with outer loop running on the sum)
 14) Coins Combinations - 2 (only Combinations are taken into account.1D problem with inner loop running on the sum)
-15) Count Ways to reach Nth stair
-16) Minimum No. of coins to make a change.
-17) Maximize the cut segments
-18) Dice Combinations(CSES)
-19) Rod cutting Problem(maximum profit problem)
-20) Consecutive 1's not allowed 
-21) Count possible ways to construct Buildings
-22)
-23)  
-24) 
+15) Count no. of subsets with given sum
+16) Count Ways to reach Nth stair
+17) Minimum No. of coins to make a change.
+18) Maximize the cut segments
+19) Dice Combinations(CSES)
+20) Rod cutting Problem(maximum profit problem)
+21) Consecutive 1's not allowed 
+22) Count possible ways to construct Buildings
+23)
+24)  
+25) 
 
 Jump game all variations + buy and sell all variations 

@@ -12,8 +12,8 @@
 10) Pots of gold game 
 11) Maximum Tip Calculator 
 12) 0-1 Knapsack 
-13) Coin Combinations - 1 (Permutations taken into account. 1D problem with outer loop running on the sum)
-14) Coins Combinations - 2 (only Combinations are taken into account.1D problem with inner loop running on the sum)
+13) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
+14) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
 15) Count no. of subsets with given sum
 16) Count Ways to reach Nth stair
 17) Minimum No. of coins to make a change.

@@ -12,8 +12,8 @@
 10) Pots of gold game 
 11) Maximum Tip Calculator 
 12) 0-1 Knapsack 
-13) Coin Combinations - 1 (In this model permutations are also taken into account and it is 1D.)
-14) Coins Combinations - 2 (In this model only combinations are taken into account and this is 2D.)
+13) Coin Combinations - 1 (In this model permutations are also taken into account. 1D problem with outer loop running on the sum)
+14) Coins Combinations - 2 (In this model only combinations are taken into account.1D problem with inner loop running on the sum)
 15) Count Ways to reach Nth stair
 16) Minimum No. of coins to make a change.
 17) Maximize the cut segments

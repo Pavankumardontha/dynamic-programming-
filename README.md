@@ -14,16 +14,18 @@
 12) 0-1 Knapsack 
 13) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
 14) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
-15) Count no. of subsets with given sum(Inner loop running on sum. Understand why ?? )
-16) Count Ways to reach Nth stair
-17) Minimum No. of coins to make a change.
-18) Maximize the cut segments
-19) Dice Combinations(CSES)
-20) Rod cutting Problem(maximum profit problem)
-21) Consecutive 1's not allowed 
-22) Count possible ways to construct Buildings
-23)
-24)  
-25) 
+15) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
+16) No. of subsets with given sum(1D with inner loop running on sum but reversed)
+17) Partial Equal Subset sum(1D problem correlate with above problems)
+18) Count Ways to reach Nth stair
+19) Minimum No. of coins to make a change.
+20) Maximize the cut segments
+21) Dice Combinations(CSES)
+22) Rod cutting Problem(maximum profit problem)
+23) Consecutive 1's not allowed 
+24) Count possible ways to construct Buildings
+25)
+26)  
+27) 
 
 Jump game all variations + buy and sell all variations 

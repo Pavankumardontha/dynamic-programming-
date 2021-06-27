@@ -27,7 +27,7 @@
 25) Rod cutting Problem(maximum profit problem)
 26) Consecutive 1's not allowed 
 27) Count possible ways to construct Buildings
-28)
+28) Longest Path in Directed Acyclic graph
 29)  
 30) 
 

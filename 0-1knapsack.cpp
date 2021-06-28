@@ -20,12 +20,11 @@ int solve(int cur_item,int cur_weight)
         int ans1 = 0; //take but check weight condition before taking.We can only take when the weight condition gets satisfied.
         int ans2 = 0; //dont take (no condition to check as it can be done in any situation)
         
-        //take
+        //max of (take + dont take)
         if(cur_weight + w[cur_item]<=C)
-        ans1 = v[cur_item] + solve(cur_item+1,cur_weight+w[cur_item]);
-        
-        //dont take
-        ans2 = solve(cur_item+1,cur_weight);
+        ans1 = max(v[cur_item] + solve(cur_item+1,cur_weight+w[cur_item],solve(cur_item+1,cur_weight);
+        else
+        ans2 = solve(cur_item+1,cur_weight); //only dont take 
         
         //return the maximum of the above 2 cases
         dp[cur_item][cur_weight] = max(ans1,ans2);

@@ -46,7 +46,7 @@ class Solution
        v.push_back(val[i]);
        for(int i=0;i<n;i++)
        w.push_back(wt[i]);
-       int ans = solve(0,0);
+       int ans = solve(0,0); //we can also start from solve(0,C) and change the conditions accordingly. !!
        return ans;
     }
 };

@@ -38,8 +38,8 @@
 36) Consecutive 1's not allowed 
 37) Count possible ways to construct Buildings
 38) Longest Path in Directed Acyclic graph
-39) Buy and sell stocks   
-40) Buy and sell stocks - II (refer recursive and iterative and analyse why dp cannot be used in this problem) 
+39) Buy and sell stocks(one transaction allowed) - I  
+40) Buy and sell stocks(multiple transactions) - II (refer recursive and iterative and analyse why dp cannot be used in this problem) 
 41) Buy and sell stocks - III 
 42) Buy and sell stocks - IV 
 43) Buy and sell stocks with cooldown 

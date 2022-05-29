@@ -40,7 +40,7 @@
 38) Longest Path in Directed Acyclic graph
 39) Buy and sell stocks(one transaction allowed) - I  
 40) Buy and sell stocks(multiple transactions) - II (refer recursive and iterative and analyse why dp cannot be used in this problem) 
-41) Buy and sell stocks - III 
-42) Buy and sell stocks - IV 
-43) Buy and sell stocks with cooldown 
-44) Buy and sell stocks with transaction fee
+43) Buy and sell stocks(multiple transactions) with cooldown 
+44) Buy and sell stocks(multiple transactions) with transaction fee
+45) Buy and sell stocks(atmost 2 transactions) 
+46) Buy and sell stocks(atmost k transactions)

@@ -16,30 +16,31 @@
 14) Longest sum Bitonic Subsequence 
 15) Maximum sum subarray 
 16) Kadanes Algorithm(Maximum sum subarray)
-17) Skip the work(direct dp solution and converting the recursive program into dp) 
-18) Yet another broken keyboard-codeforces
-19) Caesar's Legions codeforces
-20) Flower eating marmot 
-21) Optimal game strategy 
-22) Pots of gold game 
-23) Maximum Tip Calculator 
-24) 0-1 Knapsack 
-25) 0-1 knapsack unbounded 
-26) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
-27) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
-28) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
-29) No. of subsets with given sum(1D with inner loop running on sum but reversed)
-30) Partial Equal Subset sum(1D problem correlate with above problems)
-31) Count Ways to reach Nth stair
-32) Minimum No. of coins to make a change.
-33) Maximize the cut segments
-34) Dice Combinations(CSES)
-35) Rod cutting Problem(maximum profit problem)
-36) Consecutive 1's not allowed 
-37) Count possible ways to construct Buildings
-38) Longest Path in Directed Acyclic graph
-39) Buy and sell stocks(one transaction allowed) - I  
-40) Buy and sell stocks(multiple transactions) - II (refer recursive and iterative and analyse why dp cannot be used in this problem) 
+17) Maximum Absolute Sum of Any Subarray
+18) Skip the work(direct dp solution and converting the recursive program into dp) 
+19) Yet another broken keyboard-codeforces
+20) Caesar's Legions codeforces
+21) Flower eating marmot 
+22) Optimal game strategy 
+23) Pots of gold game 
+24) Maximum Tip Calculator 
+25) 0-1 Knapsack 
+26) 0-1 knapsack unbounded 
+27) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
+28) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
+29) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
+30) No. of subsets with given sum(1D with inner loop running on sum but reversed)
+31) Partial Equal Subset sum(1D problem correlate with above problems)
+32) Count Ways to reach Nth stair
+33) Minimum No. of coins to make a change.
+34) Maximize the cut segments
+35) Dice Combinations(CSES)
+36) Rod cutting Problem(maximum profit problem)
+37) Consecutive 1's not allowed 
+38) Count possible ways to construct Buildings
+39) Longest Path in Directed Acyclic graph
+40) Buy and sell stocks(one transaction allowed) - I  
+41) Buy and sell stocks(multiple transactions) - II (refer recursive and iterative and analyse why dp cannot be used in this problem) 
 43) Buy and sell stocks(multiple transactions) with cooldown 
 44) Buy and sell stocks(multiple transactions) with transaction fee
 45) Buy and sell stocks(atmost 2 transactions) 

@@ -11,10 +11,10 @@ int solve(vector<int> &p,int current_day , bool has_stock)
     on any day , you can either 
     a) have a stock
         - sell the stock and move forward
-        - sell and buy and move forward (this has not effect)
         - dont sell and move forward
     b) dont have a stock 
-        - buy and move forward 
+        - buy and move forward
+        - buy and sell on this day and move forward (this has not effect)
         - dont buy and move forward
     */
     if(has_stock)

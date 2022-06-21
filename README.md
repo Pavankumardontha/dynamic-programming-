@@ -1,4 +1,4 @@
-# dynamic-programming-
+# Problem Set
 
 1) Count all possible ways from top left to bottom right.
 2) Path with minimum Effort(leetcode dijshiktra on 2D grid)

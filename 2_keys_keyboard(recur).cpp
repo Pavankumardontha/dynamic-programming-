@@ -16,7 +16,7 @@ long long int solve(int current_count,int paste_count,int previous_choice)
         return INT_MAX;
     long long int ans1 = INT_MAX;
     long long int ans2 = INT_MAX;
-    if(choice)
+    if(previous_choice)
     {
         // previous choice is paste
         ans1 = 1 + solve(current_count+paste_count,paste_count,1);

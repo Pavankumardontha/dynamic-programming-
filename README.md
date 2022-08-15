@@ -45,8 +45,8 @@
 44) Buy and sell stocks(multiple transactions) with transaction fee
 45) Buy and sell stocks(atmost 2 transactions) 
 46) Buy and sell stocks(atmost k transactions)
-47) 2 keys keyboard (recursion) 
-48) 2 keys keyboard (DP)
-49) Edit distance (recursion) 
-50) Edit distance (DP)
+47) 2 keys keyboard (recursion + DP)
+48) Edit distance (recursion + DP) 
+50) Delete Operation for Two Strings (recursion + DP)
+
 

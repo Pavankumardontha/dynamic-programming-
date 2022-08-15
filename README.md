@@ -45,3 +45,5 @@
 44) Buy and sell stocks(multiple transactions) with transaction fee
 45) Buy and sell stocks(atmost 2 transactions) 
 46) Buy and sell stocks(atmost k transactions)
+47) 2 keys keyboard (recursion) 
+48) 2 keys keyboard (DP)

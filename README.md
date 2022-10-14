@@ -47,6 +47,7 @@
 46) Buy and sell stocks(atmost k transactions)
 47) 2 keys keyboard (recursion + DP)
 48) Edit distance (recursion + DP) 
+49) Minimum White Tiles After Covering With Carpets (recursion + DP leetcode)
 50) Delete Operation for Two Strings (recursion + DP)
 51) Minimum ascii delete sum to make 2 strings same (recursion + DP)
 

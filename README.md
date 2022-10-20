@@ -37,7 +37,8 @@
 35) Dice Combinations(CSES)
 36) Rod cutting Problem(maximum profit problem)
 37) Consecutive 1's not allowed 
-38) House robber (recursion + DP leetcode)
+38) House robber - 1 (recursion + DP leetcode)
+38) House robber - 2 (recursion + DP leetcode)
 38) Count possible ways to construct Buildings
 39) Longest Path in Directed Acyclic graph
 40) Buy and sell stocks(one transaction allowed) - I  

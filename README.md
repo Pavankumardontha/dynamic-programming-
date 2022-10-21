@@ -52,7 +52,8 @@
 49) Minimum White Tiles After Covering With Carpets (recursion + DP leetcode)
 50) Delete Operation for Two Strings (recursion + DP)
 51) Minimum ascii delete sum to make 2 strings same (recursion + DP)
-52) Partition equal subset sum (leetcode) 
+52) Partition equal subset sum (leetcode , recursion + DP) 
+53) Partition with k equal subset sum (leetcode , Can be done only with backtracking)
 
 
 

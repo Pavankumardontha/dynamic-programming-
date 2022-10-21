@@ -55,10 +55,10 @@
 52) Partition equal subset sum (leetcode , recursion + DP) 
 53) Partition with k equal subset sum (leetcode , Can be done only with backtracking)
 54) Given an array of size N in how many ways you can get a sum of k using elements of the array.
-a) No repetition + Combinations 
-b) No repetition + Permutations 
-c) Repetition + Combinations ( CSES coin Combination - 2 )
-d) Repetition + Permutations ( CSES Coin Combination - 1 )
+55) No repetition + Combinations 
+56) No repetition + Permutations 
+57) Repetition + Combinations ( CSES coin Combination - 2 )
+58) Repetition + Permutations ( CSES Coin Combination - 1 )
 
 
 

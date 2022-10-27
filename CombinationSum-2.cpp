@@ -1,3 +1,19 @@
+/*
+This is very very important model. Here the input array can contain duplicate elements and due to this , some of the combinations will repeat. We 
+need to eliminate these repeating combinations and should only output unique combinations. Here are the possible combinations of all problems 
+
+Given an input array and a target value , the possible type of problems that we face are listed below.
+      Array              restriction       output 
+1) distinct elements + taken only once + Combinations ( combination sum - 3 )
+2) Distinct elements + taken any times + Combinations ( coin combinations - 2 , combination sum - 1 )
+3) Distinct elements + taken only once + Permutations  
+4) Distinct elements + taken any times + Permutations ( combination sum - 4 , coin combinations - 1 )
+5) Repetition of elements + taken only once + Combinations ( combination sum - 2 )
+6) Repetition of elements + taken any times + Combinations 
+7) Repetition of elements + taken only once + Permutations
+8) Repetition of elements + taken any times + Permutations
+*/
+
 int n,sum;
 vector<vector<int>> ans;
 vector<int> a;

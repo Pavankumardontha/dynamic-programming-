@@ -64,7 +64,8 @@
 60) Combination sum - 2 (leetcode very important)
 61) Combination sum - 3 (leetcode) 
 62) Combination sum - 4 (leetcode) 
-
+63) Palindrome partitioning - 1 (backtracking , leetcode) 
+64) Palindrome partitioning - 2 ( DP , leetcode )
 
 
 # Combinations and Permutations counting problems

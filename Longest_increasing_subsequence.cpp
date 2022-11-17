@@ -1,3 +1,50 @@
+int a[3000];
+int n;
+int dp[2600][2600];
+int solve(int index,int previous_index)
+{
+    /*
+    at any given index , 
+    a) you can either take the element and move forward (we need to check a condition before taking)
+    b) you can skip the element and move forward
+    */
+    if(index == n)
+    return 0;
+    if(dp[index][previous_index+1]!=-1) // very important
+    return dp[index][previous_index+1];
+    int ans1 = INT_MIN;
+    int ans2 = INT_MIN;
+    if(previous_index == -1)
+    {
+        // we did not take any elements and the array is empty
+        ans1 = 1 + solve(index+1,index);
+    }
+    else
+    {
+        // we have few elements and take the current element if it is greater than the previous element
+        if(a[index]>a[previous_index])
+        ans1 = 1 + solve(index+1,index);
+    }
+    ans2 = solve(index+1,previous_index);
+    return dp[index][previous_index+1] = max(ans1,ans2);
+
+}
+
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) 
+    {
+        n = nums.size();
+        memset(dp,-1,sizeof(dp));
+        for(int i=0;i<n;i++)
+        a[i]=nums[i];
+        int ans = solve(0,-1);
+        return ans;
+
+    }
+};
+
+/*------------------------------------------------SOLUTION - 2-----------------------------------------------------------------------------------------*/
 #include<iostream>
 using namespace std;
 vector<int> a,b;

@@ -11,7 +11,10 @@ int solve(int index,int previous_index)
     if(index == n)
     return 0;
     if(dp[index][previous_index+1]!=-1) // very important
-    return dp[index][previous_index+1];
+    {
+	    // note how we have shifted the previous index to plus 1. This is because previous_index = -1 if no element is taken and -1 is not a valid index
+	    return dp[index][previous_index+1];
+    }
     int ans1 = INT_MIN;
     int ans2 = INT_MIN;
     if(previous_index == -1)

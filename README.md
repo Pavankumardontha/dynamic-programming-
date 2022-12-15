@@ -68,6 +68,7 @@
 64) Palindrome partitioning - 2 ( DP , leetcode )
 65) Palindrome partitioning - 3 ( DP , leetcode )
 66) Palindrome partitioning - 4 ( DP , leetcode )
+67) Maximum Value of K Coins From Piles (leetcode)
 
 
 # Combinations and Permutations counting problems

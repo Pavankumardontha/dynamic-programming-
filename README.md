@@ -70,7 +70,7 @@
 66) Palindrome partitioning - 4 ( DP , leetcode )
 67) Maximum Value of K Coins From Piles (leetcode)
 68) Jump Game - 1 (leetcode)
-69) Jump Game - 2 (leetcode)
+69) Jump Game - 2 (leetcode can be done using BFS and also DP)
 70) Jump Game - 3 (leetcode-BFS)
 71) Jump Game - 4 (leetcode-BFS)
 

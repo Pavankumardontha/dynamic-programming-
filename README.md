@@ -72,6 +72,7 @@
 68) Jump Game - 1 (leetcode)
 69) Jump Game - 2 (leetcode)
 70) Jump Game - 3 (leetcode-BFS)
+71) Jump Game - 4 (leetcode-BFS)
 
 
 # Combinations and Permutations counting problems

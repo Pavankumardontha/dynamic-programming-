@@ -3,41 +3,42 @@
 1) Count all possible ways from top left to bottom right.
 2) Path with minimum Effort(leetcode dijshiktra on 2D grid)
 3) Count sorted vowel strings
-4) Reach Nth stair
-5) Nth stair with atmost K steps 
-6) Reach a given score-- very very imp --(https://practice.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1) 
-7) Maximum path sum in matrix(GFG :- https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1)
-8) Maximum sum Problem(https://practice.geeksforgeeks.org/problems/maximum-sum-problem2211/1#)
-9) Find minimum/maximum cost of the path from any cell in the first row to any cell in the last row.
-10) Longest increasing subsequence (NlogN , DP )
-11) Longest subsequence such that difference between adjacent elements is one.
-12) https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
-13) Longest Bitonic Subsequence 
-14) Longest sum Bitonic Subsequence 
-15) Maximum sum subarray 
-16) Kadanes Algorithm(Maximum sum subarray)
-17) Maximum Absolute Sum of Any Subarray
-18) Skip the work(direct dp solution and converting the recursive program into dp) 
-19) Yet another broken keyboard-codeforces
-20) Caesar's Legions codeforces
-21) Flower eating marmot 
-22) Optimal game strategy 
-23) Pots of gold game 
-24) Maximum Tip Calculator 
-25) 0-1 Knapsack 
-26) 0-1 knapsack unbounded 
-27) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
-28) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
-29) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
-30) No. of subsets with given sum(1D with inner loop running on sum but reversed)
-31) Partial Equal Subset sum(1D problem correlate with above problems)
-32) Count Ways to reach Nth stair
-33) Minimum No. of coins to make a change.
-34) Maximize the cut segments
-35) Dice Combinations(CSES)
-36) Rod cutting Problem(maximum profit problem)
-37) Consecutive 1's not allowed 
-38) House robber - 1 (recursion + DP leetcode)
+4) Minimum moves to reach a target score
+5) Reach Nth stair
+6) Nth stair with atmost K steps 
+7) Reach a given score-- very very imp --(https://practice.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1) 
+8) Maximum path sum in matrix(GFG :- https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1)
+9) Maximum sum Problem(https://practice.geeksforgeeks.org/problems/maximum-sum-problem2211/1#)
+10) Find minimum/maximum cost of the path from any cell in the first row to any cell in the last row.
+11) Longest increasing subsequence (NlogN , DP )
+12) Longest subsequence such that difference between adjacent elements is one.
+13) https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
+14) Longest Bitonic Subsequence 
+15) Longest sum Bitonic Subsequence 
+16) Maximum sum subarray 
+17) Kadanes Algorithm(Maximum sum subarray)
+18) Maximum Absolute Sum of Any Subarray
+19) Skip the work(direct dp solution and converting the recursive program into dp) 
+20) Yet another broken keyboard-codeforces
+21) Caesar's Legions codeforces
+22) Flower eating marmot 
+23) Optimal game strategy 
+24) Pots of gold game 
+25) Maximum Tip Calculator 
+26) 0-1 Knapsack 
+27) 0-1 knapsack unbounded 
+28) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
+29) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
+30) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
+31) No. of subsets with given sum(1D with inner loop running on sum but reversed)
+32) Partial Equal Subset sum(1D problem correlate with above problems)
+33) Count Ways to reach Nth stair
+34) Minimum No. of coins to make a change.
+35) Maximize the cut segments
+36) Dice Combinations(CSES)
+37) Rod cutting Problem(maximum profit problem)
+38) Consecutive 1's not allowed 
+39) House robber - 1 (recursion + DP leetcode)
 38) House robber - 2 (recursion + DP leetcode)
 38) Count possible ways to construct Buildings
 39) Longest Path in Directed Acyclic graph

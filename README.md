@@ -2,7 +2,7 @@
 
 1) Count all possible ways from top left to bottom right.
 2) Path with minimum Effort(leetcode dijshiktra on 2D grid)
-3) Count N-length strings consisting only of vowels sorted lexographically.
+3) Count sorted vowel strings
 4) Reach Nth stair
 5) Nth stair with atmost K steps 
 6) Reach a given score-- very very imp --(https://practice.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1) 

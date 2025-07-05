@@ -7,8 +7,8 @@
 5) Reach Nth stair
 6) Nth stair with atmost K steps 
 7) Reach a given score (GFG)
-8) Minimum path sum
-9) Maximum path sum in matrix (GFG)
+8) Minimum path sum (DP + dijkstra)
+9) Maximum path sum in matrix (GFG - DP + Dijkstra)
 10) Maximum sum Problem(https://practice.geeksforgeeks.org/problems/maximum-sum-problem2211/1#)
 11) Find minimum/maximum cost of the path from any cell in the first row to any cell in the last row.
 12) Longest increasing subsequence (NlogN , DP )

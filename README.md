@@ -6,39 +6,40 @@
 4) Minimum moves to reach a target score
 5) Reach Nth stair
 6) Nth stair with atmost K steps 
-7) Reach a given score-- very very imp --(https://practice.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1) 
-8) Maximum path sum in matrix(GFG :- https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1)
-9) Maximum sum Problem(https://practice.geeksforgeeks.org/problems/maximum-sum-problem2211/1#)
-10) Find minimum/maximum cost of the path from any cell in the first row to any cell in the last row.
-11) Longest increasing subsequence (NlogN , DP )
-12) Longest subsequence such that difference between adjacent elements is one.
-13) https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
-14) Longest Bitonic Subsequence 
-15) Longest sum Bitonic Subsequence 
-16) Maximum sum subarray 
-17) Kadanes Algorithm(Maximum sum subarray)
-18) Maximum Absolute Sum of Any Subarray
-19) Skip the work(direct dp solution and converting the recursive program into dp) 
-20) Yet another broken keyboard-codeforces
-21) Caesar's Legions codeforces
-22) Flower eating marmot 
-23) Optimal game strategy 
-24) Pots of gold game 
-25) Maximum Tip Calculator 
-26) 0-1 Knapsack 
-27) 0-1 knapsack unbounded 
-28) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
-29) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
-30) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
-31) No. of subsets with given sum(1D with inner loop running on sum but reversed)
-32) Partial Equal Subset sum(1D problem correlate with above problems)
-33) Count Ways to reach Nth stair
-34) Minimum No. of coins to make a change.
-35) Maximize the cut segments
-36) Dice Combinations(CSES)
-37) Rod cutting Problem(maximum profit problem)
-38) Consecutive 1's not allowed 
-39) House robber - 1 (recursion + DP leetcode)
+7) Reach a given score (GFG)
+8) Minimum path sum
+9) Maximum path sum in matrix (GFG)
+10) Maximum sum Problem(https://practice.geeksforgeeks.org/problems/maximum-sum-problem2211/1#)
+11) Find minimum/maximum cost of the path from any cell in the first row to any cell in the last row.
+12) Longest increasing subsequence (NlogN , DP )
+13) Longest subsequence such that difference between adjacent elements is one.
+14) https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
+15) Longest Bitonic Subsequence 
+16) Longest sum Bitonic Subsequence 
+17) Maximum sum subarray 
+18) Kadanes Algorithm(Maximum sum subarray)
+19) Maximum Absolute Sum of Any Subarray
+20) Skip the work(direct dp solution and converting the recursive program into dp) 
+21) Yet another broken keyboard-codeforces
+22) Caesar's Legions codeforces
+23) Flower eating marmot 
+24) Optimal game strategy 
+25) Pots of gold game 
+26) Maximum Tip Calculator 
+27) 0-1 Knapsack 
+28) 0-1 knapsack unbounded 
+29) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
+30) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
+31) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
+32) No. of subsets with given sum(1D with inner loop running on sum but reversed)
+33) Partial Equal Subset sum(1D problem correlate with above problems)
+34) Count Ways to reach Nth stair
+35) Minimum No. of coins to make a change.
+36) Maximize the cut segments
+37) Dice Combinations(CSES)
+38) Rod cutting Problem(maximum profit problem)
+39) Consecutive 1's not allowed 
+40) House robber - 1 (recursion + DP leetcode)
 38) House robber - 2 (recursion + DP leetcode)
 38) Count possible ways to construct Buildings
 39) Longest Path in Directed Acyclic graph

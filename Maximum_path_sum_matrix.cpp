@@ -1,39 +1,116 @@
-// https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1
-class Solution{
-public:
-    int maximumPath(int N, vector<vector<int>> a)
+/* Applying DIJKSTRA's approach */
+bool isValid(int i, int j, int n, int m)
+{
+    if(i<0 or j<0 or i>=n or j>=m)
+    return false;
+    return true;
+}
+
+class Solution {
+  public:
+    int maximumPath(vector<vector<int>>& mat) 
     {
-        // minCost(m, n) = min (minCost(m-1, n-1), minCost(m-1, n), minCost(m, n-1)) + cost[m][n]
-        int n = N;
-        int m = N;
-        
-        int dp[n][m];
+        int n = mat.size();
+        int m = mat[0].size();
+        int dis[n][m];
         for(int i=0;i<n;i++)
         {
             for(int j=0;j<m;j++)
-            dp[i][j] = INT_MAX;
+            dis[i][j]=INT_MIN; // since we want to find the maximum path
         }
-        dp[0][0] = a[0][0];
-        //initializing first row cost. The only way to reach any cell on the first row is via left
-        for(int i=1;i<m;i++)
-        dp[0][i] = dp[0][i-1] + a[0][i];
         
-        //initialising first col cost. The only way to reach any cell on the first cell is via up 
-        for(int i=1;i<n;i++)
-        dp[i][0] = dp[i-1][0] + a[i][0];
-        
-        for(int i=1;i<n;i++)
+        priority_queue<pair<int,pair<int,int>>> pq; // max heap sorted by first element
+        for(int j=0;j<m;j++)
         {
-            for(int j=1;j<m;j++)
+            dis[0][j]=mat[0][j]; // initialise the first row with mat values
+            // push them into the priority queue
+            pq.push({dis[0][j],{0,j}});
+        }
+        pair<int,pair<int,int>> temp;
+        int x,y;
+        while(!pq.empty())
+        {
+            temp = pq.top();
+            pq.pop();
+            x = temp.second.first;
+            y = temp.second.second;
+            if(isValid(x+1,y-1,n,m) and dis[x+1][y-1] < dis[x][y] + mat[x+1][y-1])
             {
-                int top = dp[i-1][j];
-                int right = dp[i][j-1];
-                int top_left_corner = dp[i-1][j-1];
-                //these are the only 3 ways to reach (i,j)
-                dp[i][j] = min(min(dp[i-1][j],dp[i][j-1]),dp[i-1][j-1]) + a[i][j]; 
+                dis[x+1][y-1] = dis[x][y] + mat[x+1][y-1];
+                pq.push({dis[x+1][y-1],{x+1,y-1}});
+            }
+            if(isValid(x+1,y,n,m) and dis[x+1][y] < dis[x][y] + mat[x+1][y])
+            {
+                dis[x+1][y] = dis[x][y] + mat[x+1][y];
+                pq.push({dis[x+1][y],{x+1,y}});
+            }
+            if(isValid(x+1,y+1,n,m) and dis[x+1][y+1] < dis[x][y] + mat[x+1][y+1])
+            {
+                dis[x+1][y+1] = dis[x][y] + mat[x+1][y+1];
+                pq.push({dis[x+1][y+1],{x+1,y+1}});
             }
         }
-        return dp[n-1][m-1];
-        
+        int ans = INT_MIN;
+        for(int j=0;j<m;j++)
+        {
+            ans = max(ans,dis[n-1][j]);
+        }
+        return ans;
     }
 };
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+// DP approach
+int dp[501][501];
+bool isValid(int i, int j, int n, int m)
+{
+    if(i<0 or j<0 or i>=n or j>=m)
+    return false;
+    return true;
+}
+
+int solve(int i, int j, vector<vector<int>>& grid, int& n, int& m)
+{
+    if(i==n-1) // we have reached the last row
+    return grid[i][j];
+    // we can move right , down , diagonal
+    // solve(i,j) find the maximum distance starting from (i,j) to reach the last row
+    if(dp[i][j] != -1)
+    return dp[i][j];
+    int down = INT_MIN;
+    int right = INT_MIN;
+    int diagonal = INT_MIN;
+    if(isValid(i+1,j-1,n,m))
+    diagonal =  solve(i+1,j-1,grid,n,m);
+    if(isValid(i+1,j,n,m))
+    down = solve(i+1,j,grid,n,m);
+    if(isValid(i+1,j+1,n,m))
+    right = solve(i+1,j+1,grid,n,m);
+    return dp[i][j] = grid[i][j] + max(down,max(right,diagonal));
+}
+
+class Solution {
+  public:
+    int maximumPath(vector<vector<int>>& mat) 
+    {
+        int n = mat.size();
+        int m = mat[0].size();
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<m;j++)
+            dp[i][j]=-1;
+        }
+        int ans = INT_MIN;
+        for(int j=0;j<m;j++)
+        {
+            ans = max(ans,solve(0,j,mat,n,m));
+        }
+        return ans;
+    }
+};
+
+
+
+
+

@@ -12,7 +12,7 @@
 10) Maximum sum Problem(https://practice.geeksforgeeks.org/problems/maximum-sum-problem2211/1#)
 11) Find minimum/maximum cost of the path from any cell in the first row to any cell in the last row.
 12) Longest increasing subsequence (NlogN , DP )
-13) Longest subsequence such that difference between adjacent elements is one.
+13) Longest arithmetic subsequence of given difference
 14) https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
 15) Longest Bitonic Subsequence 
 16) Longest sum Bitonic Subsequence 

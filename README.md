@@ -13,33 +13,34 @@
 11) Find minimum/maximum cost of the path from any cell in the first row to any cell in the last row.
 12) Longest increasing subsequence (NlogN , DP )
 13) Longest arithmetic subsequence of given difference
-14) https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
-15) Longest Bitonic Subsequence 
-16) Longest sum Bitonic Subsequence 
-17) Maximum sum subarray 
-18) Kadanes Algorithm(Maximum sum subarray)
-19) Maximum Absolute Sum of Any Subarray
-20) Skip the work(direct dp solution and converting the recursive program into dp) 
-21) Yet another broken keyboard-codeforces
-22) Caesar's Legions codeforces
-23) Flower eating marmot 
-24) Optimal game strategy 
-25) Pots of gold game 
-26) Maximum Tip Calculator 
-27) 0-1 Knapsack 
-28) 0-1 knapsack unbounded 
-29) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
-30) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
-31) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
-32) No. of subsets with given sum(1D with inner loop running on sum but reversed)
-33) Partial Equal Subset sum(1D problem correlate with above problems)
-34) Count Ways to reach Nth stair
-35) Minimum No. of coins to make a change.
-36) Maximize the cut segments
-37) Dice Combinations(CSES)
-38) Rod cutting Problem(maximum profit problem)
-39) Consecutive 1's not allowed 
-40) House robber - 1 (recursion + DP leetcode)
+14) Longest arithmetic subsequence ( extension of above problem )
+15) https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
+16) Longest Bitonic Subsequence 
+17) Longest sum Bitonic Subsequence 
+18) Maximum sum subarray 
+19) Kadanes Algorithm(Maximum sum subarray)
+20) Maximum Absolute Sum of Any Subarray
+21) Skip the work(direct dp solution and converting the recursive program into dp) 
+22) Yet another broken keyboard-codeforces
+23) Caesar's Legions codeforces
+24) Flower eating marmot 
+25) Optimal game strategy 
+26) Pots of gold game 
+27) Maximum Tip Calculator 
+28) 0-1 Knapsack 
+29) 0-1 knapsack unbounded 
+30) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
+31) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
+32) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
+33) No. of subsets with given sum(1D with inner loop running on sum but reversed)
+34) Partial Equal Subset sum(1D problem correlate with above problems)
+35) Count Ways to reach Nth stair
+36) Minimum No. of coins to make a change.
+37) Maximize the cut segments
+38) Dice Combinations(CSES)
+39) Rod cutting Problem(maximum profit problem)
+40) Consecutive 1's not allowed 
+41) House robber - 1 (recursion + DP leetcode)
 38) House robber - 2 (recursion + DP leetcode)
 38) Count possible ways to construct Buildings
 39) Longest Path in Directed Acyclic graph

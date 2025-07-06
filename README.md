@@ -13,8 +13,8 @@
 11) Find minimum/maximum cost of the path from any cell in the first row to any cell in the last row.
 12) Longest increasing subsequence (NlogN , DP )
 13) Longest arithmetic subsequence of given difference
-14) Longest arithmetic subsequence ( extension of above problem )
-15) https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
+14) Longest arithmetic subsequence (extension of above problem)
+15) Number of longest increasing subsequence
 16) Longest Bitonic Subsequence 
 17) Longest sum Bitonic Subsequence 
 18) Maximum sum subarray 

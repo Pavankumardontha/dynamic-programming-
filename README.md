@@ -90,5 +90,12 @@ Given an input array and a target value , the possible type of problems that we 
 7) Repetition of elements + taken only once + Permutations
 8) Repetition of elements + taken any times + Permutations
 
+# Missed out problems
+1) Increasing triplet subsequence
+2) Longest increasing subsequence II
+3) Longest subsequence with decreasing adjacent difference
+4) Find the maximum length of valid subsequence I
+5) Find the maximum length of valid subsequence II
+6) 
 
 

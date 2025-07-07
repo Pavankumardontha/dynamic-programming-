@@ -31,22 +31,24 @@
 29) Maximum Tip Calculator 
 30) 0-1 Knapsack 
 31) 0-1 knapsack unbounded
-32) Coin change (Miminum coins to make target)
-33) Coin change - II (using each element any no. of times, find the no. of combinations of elements which add up to form a given target)
-34) Length of longest subsequence that sums to target
-35) Inverse coin change
-36) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
-37) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
-38) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
-39) No. of subsets with given sum(1D with inner loop running on sum but reversed)
-40) Partial Equal Subset sum(1D problem correlate with above problems)
-41) Count Ways to reach Nth stair
-42) Minimum No. of coins to make a change.
-43) Maximize the cut segments
-44) Dice Combinations(CSES)
-45) Rod cutting Problem(maximum profit problem)
-46) Consecutive 1's not allowed 
-47) House robber - 1 (recursion + DP leetcode)
+32) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
+33) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
+34) Coin change (Miminum coins to make target)
+35) Coin change - II (using each element any no. of times, find the no. of combinations of elements which add up to form a given target)
+36) Length of longest subsequence that sums to target
+37) Inverse coin change
+38) -
+39) -
+40) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
+41) No. of subsets with given sum(1D with inner loop running on sum but reversed)
+42) Partial Equal Subset sum(1D problem correlate with above problems)
+43) Count Ways to reach Nth stair
+44) Minimum No. of coins to make a change.
+45) Maximize the cut segments
+46) Dice Combinations(CSES)
+47) Rod cutting Problem(maximum profit problem)
+48) Consecutive 1's not allowed 
+49) House robber - 1 (recursion + DP leetcode)
 38) House robber - 2 (recursion + DP leetcode)
 38) Count possible ways to construct Buildings
 39) Longest Path in Directed Acyclic graph

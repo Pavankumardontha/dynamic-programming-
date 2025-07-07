@@ -31,8 +31,8 @@
 29) Maximum Tip Calculator 
 30) 0-1 Knapsack 
 31) 0-1 knapsack unbounded
-32) Coin change
-33) Coin change - II
+32) Coin change (Miminum coins to make target)
+33) Coin change - II (using each element any no. of times, find the no. of combinations of elements which add up to form a given target)
 34) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
 35) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
 36) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)

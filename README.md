@@ -26,22 +26,23 @@
 24) Flower eating marmot 
 25) Optimal game strategy (GFG)
 26) Predict the winner
-27) Pots of gold game 
-28) Maximum Tip Calculator 
-29) 0-1 Knapsack 
-30) 0-1 knapsack unbounded 
-31) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
-32) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
-33) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
-34) No. of subsets with given sum(1D with inner loop running on sum but reversed)
-35) Partial Equal Subset sum(1D problem correlate with above problems)
-36) Count Ways to reach Nth stair
-37) Minimum No. of coins to make a change.
-38) Maximize the cut segments
-39) Dice Combinations(CSES)
-40) Rod cutting Problem(maximum profit problem)
-41) Consecutive 1's not allowed 
-42) House robber - 1 (recursion + DP leetcode)
+27) Maximum earnings from Taxi
+28) Pots of gold game 
+29) Maximum Tip Calculator 
+30) 0-1 Knapsack 
+31) 0-1 knapsack unbounded 
+32) Coin Combinations-1(Permutations taken into account. 1D problem with outer loop running on the sum)
+33) Coins Combinations-2(only Combinations are taken into account.1D problem with inner loop running on the sum)
+34) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
+35) No. of subsets with given sum(1D with inner loop running on sum but reversed)
+36) Partial Equal Subset sum(1D problem correlate with above problems)
+37) Count Ways to reach Nth stair
+38) Minimum No. of coins to make a change.
+39) Maximize the cut segments
+40) Dice Combinations(CSES)
+41) Rod cutting Problem(maximum profit problem)
+42) Consecutive 1's not allowed 
+43) House robber - 1 (recursion + DP leetcode)
 38) House robber - 2 (recursion + DP leetcode)
 38) Count possible ways to construct Buildings
 39) Longest Path in Directed Acyclic graph

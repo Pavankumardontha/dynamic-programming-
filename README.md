@@ -50,8 +50,9 @@
 48) Maximize the cut segments
 49) Number of ways to earn points (leetcode - missed out problem must do)
 50) Rod cutting Problem(maximum profit problem)
-51) Consecutive 1's not allowed 
-52) House robber - 1 (recursion + DP leetcode)
+51) Minimum cost to cut a stick (leetcode - missed out problem must do, [https://leetcode.com/problems/minimum-cost-to-cut-a-stick/solutions/780880/dp-with-picture-burst-balloons/])
+52) Consecutive 1's not allowed 
+53) House robber - 1 (recursion + DP leetcode)
 38) House robber - 2 (recursion + DP leetcode)
 38) Count possible ways to construct Buildings
 39) Longest Path in Directed Acyclic graph

@@ -36,21 +36,22 @@
 34) Coin Combinations-2(CSES - only Combinations are taken into account.1D problem with inner loop running on the sum)
 35) Refer permutations_and_combinations readme file
 36) Coin change (Miminum coins to make target)
-37) Coin change - II (using each element any no. of times, find the no. of combinations of elements which add up to form a given target)
-38) Length of longest subsequence that sums to target
-39) Inverse coin change
-40) -
+37) Minimizing coins(CSES)
+38) Coin change - II (using each element any no. of times, find the no. of combinations of elements which add up to form a given target)
+39) Length of longest subsequence that sums to target
+40) Inverse coin change
 41) -
-42) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
-43) No. of subsets with given sum(1D with inner loop running on sum but reversed)
-44) Partial Equal Subset sum(1D problem correlate with above problems)
-45) Count Ways to reach Nth stair
-46) Minimum No. of coins to make a change.
-47) Maximize the cut segments
-48) -
-49) Rod cutting Problem(maximum profit problem)
-50) Consecutive 1's not allowed 
-51) House robber - 1 (recursion + DP leetcode)
+42) -
+43) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
+44) No. of subsets with given sum(1D with inner loop running on sum but reversed)
+45) Partial Equal Subset sum(1D problem correlate with above problems)
+46) Count Ways to reach Nth stair
+47) Minimum No. of coins to make a change.
+48) Maximize the cut segments
+49) -
+50) Rod cutting Problem(maximum profit problem)
+51) Consecutive 1's not allowed 
+52) House robber - 1 (recursion + DP leetcode)
 38) House robber - 2 (recursion + DP leetcode)
 38) Count possible ways to construct Buildings
 39) Longest Path in Directed Acyclic graph

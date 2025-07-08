@@ -48,7 +48,7 @@
 46) Count Ways to reach Nth stair
 47) Minimum No. of coins to make a change.
 48) Maximize the cut segments
-49) -
+49) Number of ways to earn points (leetcode - missed out problem must do)
 50) Rod cutting Problem(maximum profit problem)
 51) Consecutive 1's not allowed 
 52) House robber - 1 (recursion + DP leetcode)

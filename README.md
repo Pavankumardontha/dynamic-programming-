@@ -42,8 +42,8 @@
 40) Inverse coin change
 41) -
 42) -
-43) No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
-44) No. of subsets with given sum(1D with inner loop running on sum but reversed)
+43) Perfect sum problem - No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
+44) Perfect sum problem - No. of subsets with given sum(1D with inner loop running on sum but reversed)
 45) Partial Equal Subset sum(1D problem correlate with above problems)
 46) Count Ways to reach Nth stair
 47) Minimum No. of coins to make a change.

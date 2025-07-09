@@ -48,7 +48,7 @@
 46) Count Ways to reach Nth stair
 47) Minimum No. of coins to make a change.
 48) Maximize the cut segments
-49) Number of ways to earn points (leetcode - missed out problem must do)
+49) Number of ways to earn points
 50) Rod cutting Problem(maximum profit problem)
 51) Minimum cost to cut a stick (leetcode - missed out problem must do, [https://leetcode.com/problems/minimum-cost-to-cut-a-stick/solutions/780880/dp-with-picture-burst-balloons/])
 52) Consecutive 1's not allowed 

@@ -111,5 +111,6 @@ Given an input array and a target value , the possible type of problems that we 
 5) Find the maximum length of valid subsequence II
 6) Inverse coin change
 7) Count of subsets with sum equal to target (Can this be done in 1D DP ? Compare the solutions with both coin combinations-1,2)
+8) Two Best Non-Overlapping Events
 
 

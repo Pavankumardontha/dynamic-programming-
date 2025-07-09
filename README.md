@@ -40,7 +40,7 @@
 38) Coin change - II (using each element any no. of times, find the no. of combinations of elements which add up to form a given target)
 39) Length of longest subsequence that sums to target
 40) Inverse coin change
-41) -
+41) Number of ways to select buildings
 42) -
 43) Perfect sum problem - No. of subsets with given sum(Inner loop running on sum. Understand why ?? 2D similar to 0-1 knapsack)
 44) Perfect sum problem - No. of subsets with given sum(1D with inner loop running on sum but reversed)

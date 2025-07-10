@@ -79,7 +79,7 @@
 59) Combination sum - 1 (leetcode)
 60) Combination sum - 2 (leetcode very important)
 61) Combination sum - 3 (leetcode) 
-62) Combination sum - 4 (leetcode) 
+62) Combination sum - 4 (leetcode - VERY VERY IMPORTANT. compare with perfect sum problem of GFG) 
 63) Palindrome partitioning - 1 (backtracking , leetcode) 
 64) Palindrome partitioning - 2 ( DP , leetcode )
 65) Palindrome partitioning - 3 ( DP , leetcode )

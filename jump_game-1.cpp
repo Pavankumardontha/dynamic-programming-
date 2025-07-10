@@ -2,19 +2,22 @@ class Solution {
 public:
     bool canJump(vector<int>& nums) 
     {
-        int n=nums.size();
-        int max_range=0;
+        int max_index_that_can_be_reached = 0;
+        int n = nums.size();
+        if(n==1)
+        return true;
+        if(nums[0]==0)
+        return false;
         for(int i=0;i<n-1;i++)
         {
-            if(nums[i] == 0 and max_range<=i)
+            if(max_index_that_can_be_reached<i)
             return false;
-            if(max_range < i+nums[i])
-            max_range = i+nums[i];
+            if(max_index_that_can_be_reached < i + nums[i])
+            max_index_that_can_be_reached = i + nums[i];
         }
-        return max_range>=(n-1);
+        return max_index_that_can_be_reached >= n-1;
     }
 };
-
 
 // DP approach 
 int n;

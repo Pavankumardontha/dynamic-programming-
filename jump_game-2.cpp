@@ -31,3 +31,30 @@ public:
         return solve(0);
     }
 };
+
+// BFS solution 
+class Solution {
+public:
+    int jump(vector<int>& nums) 
+    {
+        int n = nums.size();
+        vector<int> dis(n,INT_MAX);
+        dis[0]=0;
+        queue<int> q;
+        q.push(0);
+        while(!q.empty())
+        {
+            int temp = q.front();
+            q.pop();
+            for(int i=temp+1;(i<=temp+nums[temp] and i<n);i++)
+            {
+                if(dis[i] == INT_MAX) // these are the nodes which have not been touched yet.
+                {
+                    q.push(i);
+                    dis[i] = dis[temp]+1;
+                }
+            }
+        }
+        return dis[n-1];
+    }
+};

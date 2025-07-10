@@ -90,6 +90,7 @@
 70) Jump Game - 3 (leetcode-BFS)
 71) Jump Game - 4 (leetcode-BFS)
 72) Maximum numbers of jumps to reach the last index
+73) Extra characters in a string
 
 
 # Combinations and Permutations counting problems

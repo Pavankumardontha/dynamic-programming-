@@ -1,3 +1,22 @@
+class Solution {
+public:
+    bool canJump(vector<int>& nums) 
+    {
+        int n=nums.size();
+        int max_range=0;
+        for(int i=0;i<n-1;i++)
+        {
+            if(nums[i] == 0 and max_range<=i)
+            return false;
+            if(max_range < i+nums[i])
+            max_range = i+nums[i];
+        }
+        return max_range>=(n-1);
+    }
+};
+
+
+// DP approach 
 int n;
 int a[10001];
 int dp[10001];
@@ -30,3 +49,4 @@ public:
 
     }
 };
+

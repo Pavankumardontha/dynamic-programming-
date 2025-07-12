@@ -95,7 +95,7 @@
 74) Frog jump
 75) Extra characters in a string
 76) cherry pickup II
-77) Partitions with given difference
+77) Partitions with given difference (try writing iterative solution)
 78) Partition to K equal sum subsets (backtracking)
 
 

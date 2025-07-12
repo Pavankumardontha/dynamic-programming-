@@ -112,10 +112,14 @@ Given an input array and a target value , the possible type of problems that we 
 8) Repetition of elements + taken any times + Permutations
 
 # strings 
-1) Longest common subsequence
-2) Maximum length of repeated subarray (same as longest common substring)
-3) Edit distance
-4) 
+1) Longest common subsequence (from recursive dp to tabulation to space optimisation)
+2) Print longest common subsequence
+3) Maximum length of repeated subarray (same as longest common substring)
+4) Edit distance
+5) Longest palindromic subsequence (find LCS between string and its reverse - This does not work for longest palindromic substring)
+6) Longest palindromine substring (solved by DP but can be solved manacher's algorithm)
+7) Palindromic substrings
+8) Minimum insertion steps to make a string palindrome (length of string - length of longest palindromic subsequence)
 
 # Missed out problems
 1) Increasing triplet subsequence
@@ -126,5 +130,6 @@ Given an input array and a target value , the possible type of problems that we 
 6) Inverse coin change
 7) Count of subsets with sum equal to target (Can this be done in 1D DP ? Compare the solutions with both coin combinations-1,2)
 8) Two Best Non-Overlapping Events
+9) Egg dropping problem
 
 

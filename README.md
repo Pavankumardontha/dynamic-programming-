@@ -95,7 +95,8 @@
 74) Frog jump
 75) Extra characters in a string
 76) cherry pickup II
-77) Partition to K equal sum subsets (backtracking)
+77) Partitions with given difference
+78) Partition to K equal sum subsets (backtracking)
 
 
 # Combinations and Permutations counting problems

@@ -73,26 +73,29 @@
 54) Word break II (no dp involved only recursion and backtracking)
 53) Partition with k equal subset sum (leetcode , Can be done only with backtracking)
 54) Given an array of size N in how many ways you can get a sum of k using elements of the array.
-55) No repetition + Combinations 
-56) No repetition + Permutations 
-57) Repetition + Combinations ( CSES coin Combination - 2 )
-58) Repetition + Permutations ( CSES Coin Combination - 1 )
-59) Combination sum - 1 (leetcode)
-60) Combination sum - 2 (leetcode very important)
-61) Combination sum - 3 (leetcode) 
-62) Combination sum - 4 (leetcode - VERY VERY IMPORTANT. compare with perfect sum problem of GFG) 
-63) Palindrome partitioning - 1 (backtracking , leetcode) 
-64) Palindrome partitioning - 2 ( DP , leetcode )
-65) Palindrome partitioning - 3 ( DP , leetcode )
-66) Palindrome partitioning - 4 ( DP , leetcode )
-67) Maximum Value of K Coins From Piles (leetcode)
-68) Jump Game - 1 (leetcode)
-69) Jump Game - 2 (leetcode can be done using BFS and also DP)
-70) Jump Game - 3 (leetcode-BFS)
-71) Jump Game - 4 (leetcode-BFS)
-72) Maximum numbers of jumps to reach the last index
-73) Frog jump
-74) Extra characters in a string
+55) Partition Array Into Two Arrays to Minimize Sum Difference
+56) No repetition + Combinations 
+57) No repetition + Permutations 
+58) Repetition + Combinations ( CSES coin Combination - 2 )
+59) Repetition + Permutations ( CSES Coin Combination - 1 )
+60) Combination sum - 1 (leetcode)
+61) Combination sum - 2 (leetcode very important)
+62) Combination sum - 3 (leetcode) 
+63) Combination sum - 4 (leetcode - VERY VERY IMPORTANT. compare with perfect sum problem of GFG) 
+64) Palindrome partitioning - 1 (backtracking , leetcode) 
+65) Palindrome partitioning - 2 ( DP , leetcode )
+66) Palindrome partitioning - 3 ( DP , leetcode )
+67) Palindrome partitioning - 4 ( DP , leetcode )
+68) Maximum Value of K Coins From Piles (leetcode)
+69) Jump Game - 1 (leetcode)
+70) Jump Game - 2 (leetcode can be done using BFS and also DP)
+71) Jump Game - 3 (leetcode-BFS)
+72) Jump Game - 4 (leetcode-BFS)
+73) Maximum numbers of jumps to reach the last index
+74) Frog jump
+75) Extra characters in a string
+76) cherry pickup II
+77) Partition to K equal sum subsets (backtracking)
 
 
 # Combinations and Permutations counting problems
@@ -106,6 +109,12 @@ Given an input array and a target value , the possible type of problems that we 
 6) Repetition of elements + taken any times + Combinations 
 7) Repetition of elements + taken only once + Permutations
 8) Repetition of elements + taken any times + Permutations
+
+# strings 
+1) Longest common subsequence
+2) Maximum length of repeated subarray (same as longest common substring)
+3) Edit distance
+4) 
 
 # Missed out problems
 1) Increasing triplet subsequence

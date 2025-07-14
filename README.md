@@ -120,6 +120,7 @@ Given an input array and a target value , the possible type of problems that we 
 6) Longest palindromine substring (solved by DP but can be solved manacher's algorithm)
 7) Palindromic substrings
 8) Minimum insertion steps to make a string palindrome (length of string - length of longest palindromic subsequence)
+9) Shortest common supersequence (len(s1) - LCS(s1,s2) + len(s2) - LCS(s1,s2) - LCS(s1,s2))
 
 # Missed out problems
 1) Increasing triplet subsequence

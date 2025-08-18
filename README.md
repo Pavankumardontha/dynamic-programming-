@@ -98,7 +98,8 @@
 76) cherry pickup II
 77) Partitions with given difference (try writing iterative solution)
 78) Partition to K equal sum subsets (backtracking)
-79) Number of Increasing Paths in a Grid (very very important + backtracking)
+79) Partition array for maximum sum
+80) Number of Increasing Paths in a Grid (very very important + backtracking)
 
 
 # Combinations and Permutations counting problems

@@ -100,6 +100,7 @@
 78) Partition to K equal sum subsets (backtracking)
 79) Partition array for maximum sum
 80) Number of Increasing Paths in a Grid (very very important + backtracking)
+81) Matrix chain multiplication (gfg)
 
 
 # Combinations and Permutations counting problems

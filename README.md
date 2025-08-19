@@ -101,6 +101,7 @@
 79) Partition array for maximum sum
 80) Number of Increasing Paths in a Grid (very very important + backtracking)
 81) Matrix chain multiplication (gfg)
+82) Boolean Parenthesization (gfg)
 
 
 # Combinations and Permutations counting problems

@@ -102,6 +102,8 @@
 80) Number of Increasing Paths in a Grid (very very important + backtracking)
 81) Matrix chain multiplication (gfg)
 82) Boolean Parenthesization (gfg)
+83) Minimum cost to cut a stick
+84) Number of Ways to Divide a Long Corridor
 
 
 # Combinations and Permutations counting problems

@@ -47,9 +47,7 @@ public:
         int i = 0;
         memset(dp,-1,sizeof(dp));
         memset(is_palindrome,-1,sizeof(is_palindrome));
-        /*
-        we will first construct the is_palindrome matrix so answer whether the substring s(i,j)
-        is a palindrome or not */
+        /* we will first construct the is_palindrome matrix so answer whether the substring s(i,j) is a palindrome or not */
         for(int i=0;i<n;i++)
         {
             for(int j=i;j<n;j++)

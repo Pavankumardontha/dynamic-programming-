@@ -1,46 +1,63 @@
-
-string s;
-int n;
-int dp[2002][4];
-bool IsPalindrome(string s1)
+int is_palindrome[2001][2001];
+bool isPalindrome(int i, int j, string& s)
 {
-    string temp = s1;
-    reverse(temp.begin(),temp.end());
-    return temp == s1;
+    if(i>=j)
+    return is_palindrome[i][j]=1;
+    else if(is_palindrome[i][j]!=-1)
+    return is_palindrome[i][j];
+    else
+    {
+        if(s[i]==s[j])
+        return is_palindrome[i][j] = isPalindrome(i+1,j-1,s);
+        return is_palindrome[i][j] = false;
+    }
 }
-bool solve(int index, int splits)
+int dp[2001][5];
+
+bool solve(int i, int partitions, string& s, int& n)
 {
-    if(index == n)
+    if(i==n)
     {
-        if(splits == 3)
-        return true;
-        else
-        return false;
+        if(partitions==3)
+        return dp[i][partitions] = true;
+        return dp[i][partitions] = false;
     }
-    if(splits == 3)
-    return false;
-    if(dp[index][splits]!=-1)
-    return dp[index][splits];
-    int left_over_length = n - index;
-    for(int i=1;i<=left_over_length;i++)
+    else if(partitions>3)
+    return dp[i][partitions]=false;
+    else if(dp[i][partitions]!=-1)
+    return dp[i][partitions];
+    else
     {
-        string temp = s.substr(index,i);
-        if(IsPalindrome(temp))
+        for(int len=1;len<=n-i;len++)
         {
-            if(solve(index+i,splits+1))
-            return dp[index][splits] = true;
+            if(is_palindrome[i][i+len-1])
+            {
+                bool ans = solve(i+len,partitions+1,s,n);
+                if(ans==true)
+                return dp[i][partitions] = ans;
+            }
         }
+        return dp[i][partitions] = false;
     }
-    return dp[index][splits]=false;
 }
 
 class Solution {
 public:
-    bool checkPartitioning(string s1) 
+    bool checkPartitioning(string s) 
     {
-        s = s1;
-        n = s.length();
         memset(dp,-1,sizeof(dp));
-        return solve(0,0);
+        memset(is_palindrome,-1,sizeof(is_palindrome));
+        int n = s.length();
+        for(int i=0;i<n;i++)
+        {
+            for(int j=i;j<n;j++)
+            {
+                if(i==j)
+                is_palindrome[i][j]=1;
+                else
+                isPalindrome(i,j,s);
+            }
+        }
+        return solve(0,0,s,n);
     }
 };

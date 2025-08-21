@@ -85,27 +85,28 @@
 63) Combination sum - 4 (leetcode - VERY VERY IMPORTANT. compare with perfect sum problem of GFG) 
 64) Palindrome partitioning - 1 (backtracking , leetcode) 
 65) Palindrome partitioning - 2 ( DP , leetcode )
-66) Palindrome partitioning - 3 ( DP , leetcode )
-67) Palindrome partitioning - 4 ( DP , leetcode )
-68) Maximum Value of K Coins From Piles (leetcode)
-69) Jump Game - 1 (leetcode)
-70) Jump Game - 2 (leetcode can be done using BFS and also DP)
-71) Jump Game - 3 (leetcode-BFS)
-72) Jump Game - 4 (leetcode-BFS)
-73) Maximum numbers of jumps to reach the last index
-74) Frog jump
-75) Extra characters in a string
-76) cherry pickup II
-77) Partitions with given difference (try writing iterative solution)
-78) Partition to K equal sum subsets (backtracking)
-79) Partition array for maximum sum
-80) Number of Increasing Paths in a Grid (very very important + backtracking)
-81) Matrix chain multiplication (gfg)
-82) Boolean Parenthesization (gfg)
-83) Minimum cost to cut a stick
-84) Number of Ways to Divide a Long Corridor
-85) Burst balloons
-86) 
+66) Maximum Number of Non-overlapping Palindrome Substrings
+67) Palindrome partitioning - 3 ( DP , leetcode )
+68) Palindrome partitioning - 4 ( DP , leetcode )
+69) Maximum Value of K Coins From Piles (leetcode)
+70) Jump Game - 1 (leetcode)
+71) Jump Game - 2 (leetcode can be done using BFS and also DP)
+72) Jump Game - 3 (leetcode-BFS)
+73) Jump Game - 4 (leetcode-BFS)
+74) Maximum numbers of jumps to reach the last index
+75) Frog jump
+76) Extra characters in a string
+77) cherry pickup II
+78) Partitions with given difference (try writing iterative solution)
+79) Partition to K equal sum subsets (backtracking)
+80) Partition array for maximum sum
+81) Number of Increasing Paths in a Grid (very very important + backtracking)
+82) Matrix chain multiplication (gfg)
+83) Boolean Parenthesization (gfg)
+84) Minimum cost to cut a stick
+85) Number of Ways to Divide a Long Corridor
+86) Burst balloons
+87) 
 
 
 # Combinations and Permutations counting problems

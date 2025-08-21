@@ -104,6 +104,8 @@
 82) Boolean Parenthesization (gfg)
 83) Minimum cost to cut a stick
 84) Number of Ways to Divide a Long Corridor
+85) Burst balloons
+86) 
 
 
 # Combinations and Permutations counting problems
